@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vidushi  Vashishth | A long announcement with details</title>
+    <title>Vidushi  Vashishth | projects</title>
     <meta name="author" content="Vidushi  Vashishth" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="A growing collection of your cool projects." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://vidushivashishth.github.io/templates/news_announcement_detailed_template.txt">
+    <link rel="canonical" href="https://vidushivashishth.github.io/projects/">
     
     <!-- Dark Mode -->
     
@@ -77,8 +76,8 @@
               </li>
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
@@ -93,8 +92,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -107,55 +106,80 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <!-- _layouts/post.html -->
+      <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">projects</h1>
+            <p class="post-description">A growing collection of your cool projects.</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">A long announcement with details</h1>
-    <p class="post-meta">November 7, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-    </p>
-  </header>
-
-  <article class="post-content">
-    Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-
-***
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-***
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
-
-  </article>
-
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">work</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_project/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Automated story generation</h2>
+          <p class="card-text">Used knowledge graphs to improve automated story generation by transformer based language models (GPT-J).</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="https://bonjovi1.github.io/CSE8803/" target="_blank" rel="noopener noreferrer">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Contact tracing for COVID-19 in South Korea</h2>
+          <p class="card-text">Used NETFILL and CuLT algorithms to identify missed infections in the reported COVID cases in South Korea.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="https://amankhullar.github.io/MMHateSpeechDetection/" target="_blank" rel="noopener noreferrer">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Multimodal Hate-speech detection in Memes</h2>
+          <p class="card-text">Designed a multimodal deep learning model to identify memes containing hate speech</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">fun</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+  </div>
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022 Vidushi  Vashishth. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        © Copyright 2022 Vidushi  Vashishth. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.
 
       </div>
     </footer>
