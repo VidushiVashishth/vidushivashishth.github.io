@@ -1,8 +1,14 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: project 1
 description: with background image
 img: assets/img/12.jpg
+=======
+title: Automated story generation
+description: Used knowledge graphs to improve automated story generation by transformer based language models (GPT-J). 
+img: 
+>>>>>>> b08e7fa (Synced fork and reapplied old changes on top)
 importance: 1
 category: work
 related_publications: true

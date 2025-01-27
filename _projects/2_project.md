@@ -1,8 +1,15 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: project 2
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
+=======
+title: Contact tracing for COVID-19 in South Korea
+description: Used NETFILL and CuLT algorithms to identify missed infections in the reported COVID cases in South Korea. 
+img:
+redirect: https://bonjovi1.github.io/CSE8803/
+>>>>>>> b08e7fa (Synced fork and reapplied old changes on top)
 importance: 2
 category: work
 giscus_comments: true

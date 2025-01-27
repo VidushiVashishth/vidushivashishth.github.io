@@ -1,9 +1,16 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: project 3 with very long name
 description: a project that redirects to another website
 img: assets/img/7.jpg
 redirect: https://unsplash.com
+=======
+title: Multimodal Hate-speech detection in Memes
+description: Designed a multimodal deep learning model to identify memes containing hate speech
+img:
+redirect: https://amankhullar.github.io/MMHateSpeechDetection/
+>>>>>>> b08e7fa (Synced fork and reapplied old changes on top)
 importance: 3
 category: work
 ---
