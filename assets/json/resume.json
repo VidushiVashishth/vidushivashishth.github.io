@@ -20,7 +20,7 @@
   "work": [
     {
       "name": "Google",
-      "position": "Software Engineer (L4)",
+      "position": "Software Engineer",
       "location": "Seattle, USA",
       "startDate": "2023-08",
       "summary": "Contributed to Security Health Analytics and Cloud Security Insights, building scalable backend infrastructure and customer-facing security capabilities.",
@@ -152,7 +152,7 @@
       "title": "Peer Bonuses",
       "date": "2025",
       "awarder": "Google",
-      "summary": "Five peer bonuses and one kudos during tenure at Google."
+      "summary": "Seven peer bonuses and one kudos during tenure at Google."
     },
     {
       "title": "ACM SOCC Session Chair",
