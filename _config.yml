@@ -10,7 +10,7 @@ email: vvashishth3@gatech.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Academic and work website of Vidushi Vashishth.
 footer_text: >
-keywords: keywords: machine learning, artificial intelligence, computational creativity, deep learning, systems, research, Vidushi Vashishth # add your own keywords or leave empty
+keywords: machine learning, artificial intelligence, computational creativity, deep learning, systems, research, Vidushi Vashishth # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
